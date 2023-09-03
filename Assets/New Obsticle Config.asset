@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40f57e6fa5b25f46831954e4d69243a, type: 3}
+  m_Name: New Obsticle Config
+  m_EditorClassIdentifier: 
+  EarlyObsticles:
+  - obsticle: {fileID: 8933835798955569989, guid: 629f335a253687146b2d317edf7545a8, type: 3}
+    pointTrigger: {fileID: 3533252458028222749, guid: 629f335a253687146b2d317edf7545a8, type: 3}
+    xOffset:
+      min: 0
+      max: 0
+    distanceOffset: {x: 0, y: -2, z: 20}
+    afterOffset: {x: 0, y: 0, z: 0}
+  - obsticle: {fileID: 5323652216662094562, guid: 8d79848706ca87b46a89ec693b605364, type: 3}
+    pointTrigger: {fileID: 6885346043092191921, guid: 8d79848706ca87b46a89ec693b605364, type: 3}
+    xOffset:
+      min: 0
+      max: 0
+    distanceOffset: {x: 0, y: -2, z: 10}
+    afterOffset: {x: -2.6, y: 0, z: 80}
+  - obsticle: {fileID: 6338051845676289927, guid: 7f5fec2e361d8b944b87c4530a952adb, type: 3}
+    pointTrigger: {fileID: 8614123795029097726, guid: 7f5fec2e361d8b944b87c4530a952adb, type: 3}
+    xOffset:
+      min: 0
+      max: 0
+    distanceOffset: {x: 0, y: -6, z: 20}
+    afterOffset: {x: 0, y: -2, z: -10}
+  - obsticle: {fileID: 3690890132208028998, guid: 115b4e4ec3b564249a5539f0aba39011, type: 3}
+    pointTrigger: {fileID: 2603099421795854139, guid: 115b4e4ec3b564249a5539f0aba39011, type: 3}
+    xOffset:
+      min: 0
+      max: 0
+    distanceOffset: {x: 0, y: -6, z: 20}
+    afterOffset: {x: 0, y: -2, z: -10}
+  MidObsticles:
+  - obsticle: {fileID: 721159874660213923, guid: 290531a360303714c916c0cde42fe3b5, type: 3}
+    pointTrigger: {fileID: 7614384989723637993, guid: 290531a360303714c916c0cde42fe3b5, type: 3}
+    xOffset:
+      min: -5
+      max: 5
+    distanceOffset: {x: 0, y: -5, z: 9}
+    afterOffset: {x: 0, y: 0, z: 0}
+  - obsticle: {fileID: 6458988089360052760, guid: 1bfbc18ee2ad50a428ee19764562f70a, type: 3}
+    pointTrigger: {fileID: 469482860338967809, guid: 1bfbc18ee2ad50a428ee19764562f70a, type: 3}
+    xOffset:
+      min: -5
+      max: 5
+    distanceOffset: {x: 0, y: -7, z: 20}
+    afterOffset: {x: 0, y: 0, z: 0}
+  - obsticle: {fileID: 3485722774330393758, guid: e95ddb66b8baf40449532841ca446c10, type: 3}
+    pointTrigger: {fileID: 6686043220013614944, guid: e95ddb66b8baf40449532841ca446c10, type: 3}
+    xOffset:
+      min: -5
+      max: 5
+    distanceOffset: {x: 0, y: -7, z: 20}
+    afterOffset: {x: 0, y: 0, z: 0}
+  LateObsticles:
+  - obsticle: {fileID: 6932834545152684830, guid: 557ab61526a640b43ace5c82f95bf1e3, type: 3}
+    pointTrigger: {fileID: 4342582627072090451, guid: 557ab61526a640b43ace5c82f95bf1e3, type: 3}
+    xOffset:
+      min: -3
+      max: 3
+    distanceOffset: {x: 0, y: -3, z: 22}
+    afterOffset: {x: 0, y: 0, z: 0}
+  - obsticle: {fileID: 900999664847489498, guid: 8c464bc22d0c6aa479e55034d3181cf1, type: 3}
+    pointTrigger: {fileID: 7755860328254739572, guid: 8c464bc22d0c6aa479e55034d3181cf1, type: 3}
+    xOffset:
+      min: -3
+      max: 3
+    distanceOffset: {x: 0, y: -3, z: 22}
+    afterOffset: {x: 0, y: 0, z: 0}
